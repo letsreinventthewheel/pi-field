@@ -2,6 +2,12 @@
 
 An animated shader-based spike field built in **C** with **Raylib**.
 
+
+
+https://github.com/user-attachments/assets/517c6219-6a56-4234-8e68-0ade0fa8b172
+
+
+
 The scene renders a glowing π symbol by drawing a single tiny spike mesh many times with GPU instancing. The mesh itself is simple: two vertical quads intersecting in the middle. The visual complexity comes from the shaders, which animate spike heights, reveal the π shape from a mask texture, and color the field with a height-based gradient.
 
 ## Demo concept
